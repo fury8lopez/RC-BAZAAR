@@ -1,0 +1,58 @@
+/* Media query para  tablet  */
+@media (min-width: 427px) {
+	:root {
+		--container-width: 90%;
+	}
+
+	.show-on-mobile {
+		display: flex;
+	}
+
+
+	.show-on-desktop {
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	:root {
+		--container-width: 85%;
+	}
+
+	.show-on-mobile {
+		display: flex;
+	}
+
+
+	.show-on-desktop {
+		display: none;
+	}
+}
+
+/* Media query para escritorio (mayores a 1024px y hasta 1439px) */
+@media (min-width: 1024px) {
+	:root {
+		--container-width: 80%;
+	}
+
+	.mobile-nav {
+		display: none;
+	}
+
+	.show-on-tablet {
+		display: none;
+	}
+
+	.desktop-nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 10px 20px;
+	}
+
+	
+}
+
+
