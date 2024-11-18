@@ -13,6 +13,14 @@
 		display: none;
 	}
 
+	
+	.category-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
 }
 
 @media (min-width: 768px) {
@@ -30,16 +38,6 @@
 		display: none;
 	}
 
-	.cards-container {
-		flex-direction: row;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.card {
-		max-width: 200px;
-	}
 }
 
 /* Media query para escritorio (mayores a 1024px y hasta 1439px) */
