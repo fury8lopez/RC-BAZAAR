@@ -88,10 +88,12 @@ nav {
 .logo-container {
 	padding-top: 12px;
 	display: flex;
+	justify-content: space-around;
+	gap: 12px;
 }
 
 .logos {
-	width: 80px;
+	width: 40px;
 	border-radius: 8px;
 }
 
@@ -115,7 +117,7 @@ nav {
 
 .button-container {
 	display: flex;
-	justify-content: right;
+	justify-content: space-between;
 }
 
 .button-ini {
@@ -238,7 +240,7 @@ header {
 	background-color: var(--secundary-color);
 	padding: 20px;
 	border-radius: 12px;
-	max-width: 250px;
+	max-width: 400px;
 }
 
 .news {
@@ -276,6 +278,9 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 .card-image {
@@ -288,6 +293,23 @@ header {
 	border: solid 2px black;
 	border-radius: 8px;
 }
+
+.view-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.button-view {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+
 
 .forum {
 	background-color: #6D1B7B;
@@ -332,13 +354,38 @@ header {
 	cursor: pointer;
 }
 
-
-
 .near-you {
 	background: linear-gradient(to top, #0074A9, #6D1B7B);
 	padding: 40px 20px;
 	color: var(--contrast-color);
 }
+
+.promo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
+	padding: 40px;
+	gap: 20px;
+}
+
+.promo p {
+	text-align: center;
+	font-size: 1.4rem;
+	color: var(--contrast-color);
+}
+
+.logo-promo-container {
+	padding-top: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+	width: 100%;
+}
+
+
 
 
 
