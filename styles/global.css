@@ -234,13 +234,19 @@ header {
 .card-category {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	justify-content: space-between;
 	text-align: center;
 	gap: 12px;
 	background-color: var(--secundary-color);
 	padding: 20px;
 	border-radius: 12px;
-	max-width: 400px;
+	max-width: 300px;
+}
+
+.card-category img{
+	display: flex;
+	min-height: 220px;
+	justify-content: flex-start;
 }
 
 .news {
