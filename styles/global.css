@@ -187,10 +187,21 @@ header {
 	border-radius: 8px;
 }
 
-.divisor {
-	background-color: var(--secundary-color);
+.divisor-blue {
+	background-color: #0372A8 ;
 	width: 100%;
 	height: 2px;
+}
+
+.divisor-purple {
+	background-color: #6A1E7D;
+	width: 100%;
+	height: 2px;
+}
+
+.news-tittle {
+	text-align: center;
+	padding: 0 30px;
 }
 
 .categories {
@@ -208,6 +219,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 40px 0;
 	gap: 20px;
 }
 
@@ -227,6 +239,16 @@ header {
 	padding: 20px;
 	border-radius: 12px;
 	max-width: 250px;
+}
+
+.news {
+	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
+	min-height: 200px ;
+	color: var(--contrast-color);
+	display: flex;
+	flex-direction: column;
+	padding: 40px 20px;
+	gap: 20px;
 }
 
 .cards-container {
@@ -267,17 +289,17 @@ header {
 	border-radius: 8px;
 }
 
-
-
-
-
-.news {
-	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
-	min-height: 200px ;
-	color: var(--contrast-color);
-	display: flex;
-	flex-direction: column;
-	padding: 40px 20px;
-	gap: 20px;
+.blog {
+	background-color: var(--contrast-color);
+	min-height: 50px;
 }
+
+
+.near-you {
+	background: linear-gradient(to top, #0074A9, #6D1B7B);
+	padding: 40px 20px;
+	color: var(--contrast-color);
+}
+
+
 
