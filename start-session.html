@@ -24,31 +24,34 @@
 
 <body>
 	<nav>
-		<div class="mobile-nav show-on-mobile" role="navigation">
-			<div class="logo-container">
-				<img src="/media/images/rc-bazaar-logo-transp.png" alt="logo bazaar transparente">
-			</div>
-			<div>
-				<input type="search" name="search" id="searching" placeholder="Que estas buscando?">
-			</div>
-			<div>
-				<a href="inicio-sesion">
-					<img src="/media/images/login-icon.png" alt="icono login">
-				</a>
-			</div>
-		</div>
-		<div class="desktop-nav show-on-desktop" role="navigation">
-			<div class="logo-container">
-				<img src="/media/images/rc-bazaar-logo-transp.png" alt="logo bazaar transparente">
-			</div>
-			<div>
-				<input type="search" name="search" id="searching" placeholder="Que estas buscando?">
-			</div>
-			<div>
-				<button>
-					<a href="inicio-sesion">Registrate o Inicia sesion</a>
-				</button>
-			</div>
+		<div class="logo-container">
+			<img src="/media/images/rc-bazaar-logo-transp.png" alt="logo bazaar transparente">
 		</div>
 	</nav>
+		<form action="#" method="post">
+			<div>
+				<input type="text" name="username" placeholder="Introduce usuario" required>
+				<input type="password" name="password" placeholder="Introduce contraseña" required>
+				<button type="submit">Iniciar Sesión</button>
+			</div>
+			<div>
+				<h2>¿No tienes cuenta?</h2>
+				<button>Regístrate</button>
+			</div>
+			<div>
+				<h2>o Inicia sesion con tu cuenta de:</h2>
+				<div>
+					<img src="google" alt="google">
+					<img src="facebook" alt="facebook">
+					<img src="" alt="tu cuenta de bazaar">
+				</div>
+			</div>
+		</form>
+	
+	<footer>
+		<div class="footer-mobile show-on-mobile"></div>
+		<div class="footer">
+
+		</div>
+	</footer>
 </body>
