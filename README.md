@@ -2,7 +2,7 @@
 
 ## 🌐 Live Preview
 [Ver Demo en Vivo](https://rcbazaar.netlify.app/) 
-[Vista previa](/media/images/presentation.png) 
+![preview](/media/images/presentation.png)
 
 ## 🛠️ Tecnologías Usadas
 - **Frontend**: HTML, CSS
