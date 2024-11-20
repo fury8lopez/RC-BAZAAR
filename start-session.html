@@ -17,41 +17,43 @@
 
 	<!-- Standard Meta Tags -->
 	<title>RC BAZAAR | Your Second-Hand Market for Radio Control</title>
-	<meta name="description" content="Full Stack Developer | React Native | Node.js 
-		| Javascript | Typescript | React | HTML | CSS." />
+	<meta name="description" content="#" />
 	<title>RC BAZAAR</title>
 </head>
 
 <body>
 	<nav>
 		<div class="logo-container">
-			<img src="/media/images/rc-bazaar-logo-transp.png" alt="logo bazaar transparente">
+			<a href="/index.html">
+				<img src="/media/images/rc-bazaar-logo-transp.png" alt="logo bazaar transparente">
+			</a>
 		</div>
 	</nav>
+	<section class="formulary">
 		<form action="#" method="post">
-			<div>
-				<input type="text" name="username" placeholder="Introduce usuario" required>
-				<input type="password" name="password" placeholder="Introduce contraseña" required>
-				<button type="submit">Iniciar Sesión</button>
-			</div>
-			<div>
-				<h2>¿No tienes cuenta?</h2>
-				<button>Regístrate</button>
-			</div>
-			<div>
-				<h2>o Inicia sesion con tu cuenta de:</h2>
-				<div>
-					<img src="google" alt="google">
-					<img src="facebook" alt="facebook">
-					<img src="" alt="tu cuenta de bazaar">
+			<div class="formulary-container">
+				<div class="start-session">
+					<h2 class="user">Usuari@</h2>
+					<input type="text" class="inputs" name="username" placeholder="Introduce usuario" required autocomplete="on">
+					<h2 class="user">Contraseña</h2>
+					<input type="password" class="inputs" name="password" placeholder="Introduce contraseña" required autocomplete="on">
+					<button type="submit" class="button-ini">Iniciar Sesión</button>
+				</div>
+				<div class="division-white"></div>				
+				<div class="start-session">
+					<h2 class="user">¿No tienes cuenta?</h2>
+					<button class="button-ini">Regístrate</button>
+				</div>
+				<div class="division-white"></div>
+				<div style="padding: 20px 0;">
+					<h2 class="user">o Inicia sesion con tu cuenta desde</h2>
+					<div class="start-session">
+						<img src="google" alt="google">
+						<img src="facebook" alt="facebook">
+						<img src="" alt="tu cuenta de bazaar">
+					</div>
 				</div>
 			</div>
 		</form>
-	
-	<footer>
-		<div class="footer-mobile show-on-mobile"></div>
-		<div class="footer">
-
-		</div>
-	</footer>
+	</section>
 </body>

@@ -1,0 +1,43 @@
+
+.formulary {
+    display: flex;
+    padding: 40px;
+    background: linear-gradient(to top, #0074A9, #6D1B7B);
+}
+
+.formulary-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 128, 128, 0.75);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+.division-white {
+    width: 100%;
+    background-color: var(--contrast-color);
+    height: 2px;
+}
+
+.start-session {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 20px;
+}
+
+.user {
+    color: var(--contrast-color);
+}
+
+
+.inputs {
+    display: flex;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
