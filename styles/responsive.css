@@ -29,6 +29,9 @@
 		justify-content: space-around;
 	}
 
+	.feature {
+		min-width: 200px;
+	}
 }
 
 @media (min-width: 768px) {
