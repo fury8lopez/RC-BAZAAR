@@ -26,18 +26,32 @@
 	<!-- nav | mobile + desktop + aviso -->
 	<nav>
 		<div class="nav-container">
-			<!-- nav mobile -->
+			<!-- nav mobile + burger -->
 			<div class="mobile-nav show-on-mobile" role="navigation">
-				<div class="logo-container">
-					<img src="/media/images/menu-hamb-blanco.png" class="logos" alt="menu hamburguesa blanco">
+				<div class="menu-hamburguesa">
+					<input type="checkbox" id="menu-toggle" hidden>
+					<label for="menu-toggle">
+						<img src="/media/images/menu-hamb-blanco.png" class="logos" alt="menu hamburguesa blanco">
+					</label>
+	
+				<!-- Menú desplegable móvil -->
+					<div class="mobile-menu">
+						<ul>
+							<li><a href="#categories">CATEGORIAS</a></li>
+							<li><a href="#news">NOVEDADES</a></li>
+							<li><a href="/galery.html">GALERIA</a></li>
+							<li><a href="#forum">COMUNIDAD</a></li>
+						</ul>
+					</div>
 				</div>
+
 				<div class="search-container">
 					<input type="search" name="search" id="searching" placeholder="Que estas buscando?"
 						class="searcher">
 				</div>
-				<div>
+				<div class="inicio-sesion">
 					<a href="inicio-sesion">
-						<img src="/media/images/login-icon.png" class="logos" alt="icono login">
+						<img src="/media/images/ini-icon.jpg" class="logos" alt="icono login">
 					</a>
 				</div>
 			</div>
@@ -70,7 +84,7 @@
 		</div>
 	</nav>
 	<!-- header | tittle  -->
-	<header class="header">
+	<header class="header" id="header">
 		<div class="header-img">
 			<img src="/media/images/rc-car.PNG" alt="coche azul derrapando">
 		</div>
@@ -94,7 +108,7 @@
 		</div>
 	</header>
 	<!-- section | categories -->
-	<section class="categories">
+	<section class="categories" id="categories">
 		<div class="categories-container">
 			<div class="news-tittle">
 				<h2>Categorias destacadas</h2>
@@ -207,7 +221,7 @@
 	</section>
 	<div class="divisor-purple"></div>
 	<!-- section | novedades -->
-	<section class="news">
+	<section class="news" id="news">
 		<div class="news-container">
 			<div class="news-tittle">
 				<h2>Descubre las ultimas novedades</h2>
@@ -377,7 +391,7 @@
 		</div>
 	</section>
 	<!-- section | near you -->
-	<section class="near-you">
+	<section class="near-you" id="near-you">
 		<div class="news-container">
 			<div class="news-tittle">
 				<h2>Descubre productos cerca de ti</h2>
@@ -547,7 +561,7 @@
 		</div>
 	</section>
 	<!-- section |blog  -->
-	<section class="forum">
+	<section class="forum" id="forum">
 		<div class="header-img">
 			<img src="/media/images/drift-car.png" alt="coche azul derrapando">
 		</div>
