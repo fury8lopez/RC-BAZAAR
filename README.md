@@ -1,7 +1,7 @@
 # RC BAZAAR - Venta de Segunda Mano en Radiocontrol
 
 ## 🌐 Live Preview
-![Ver Demo en Vivo](https://rcbazaar.netlify.app/) 
+[## Ver Demo en Vivo](https://rcbazaar.netlify.app/) 
 ![Preview](/media/images/presentation.png)
 
 ## 🛠️ Tecnologías Usadas
