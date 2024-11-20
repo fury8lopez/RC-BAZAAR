@@ -319,7 +319,11 @@ header {
 
 .forum {
 	background: linear-gradient(to bottom, #0074A9, #6D1B7B, #0074A9);
-	padding: 40px 20px;
+	width: 100%;
+}
+
+.forum-contain {
+	padding: 20px;
 }
 
 .forum-container {
@@ -333,6 +337,11 @@ header {
 	padding: 40px 20px;
 	gap: 40px;
 	text-align: center;
+}
+
+.forum-tittle,
+.forum-container {
+	padding: 40px 20px;
 }
 
 .forum-tittle {

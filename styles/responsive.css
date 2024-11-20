@@ -29,9 +29,7 @@
 		justify-content: space-around;
 	}
 
-	.feature {
-		min-width: 200px;
-	}
+	
 }
 
 @media (min-width: 768px) {
@@ -49,6 +47,9 @@
 		display: none;
 	}
 
+	.feature {
+		max-width: 250px;
+	}
 }
 
 /* Media query para escritorio (mayores a 1024px y hasta 1439px) */
@@ -82,6 +83,10 @@
 	}
 
 	.card {
+		max-width: 200px;
+	}
+
+	.feature {
 		max-width: 200px;
 	}
 	
