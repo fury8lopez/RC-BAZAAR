@@ -38,21 +38,21 @@
                     <!-- Información básica -->
                     <div class="basic-info">
                         <label for="fullname">Nombre completo:(obligatorio)</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Introduce tu nombre completo"
+                        <input type="text" id="fullname" class="inputs" name="fullname" placeholder="Introduce tu nombre completo"
                             required>
                         <label for="username">Nombre de usuario:(obligatorio)</label>
-                        <input type="text" id="username" name="username" placeholder="Introduce un nombre de usuario"
+                        <input type="text" id="username" class="inputs" name="username" placeholder="Introduce un nombre de usuario"
                             required>
                         <label for="email">Correo electrónico:(obligatorio)</label>
-                        <input type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                        <input type="email" id="email" class="inputs" name="email" placeholder="Introduce tu correo electrónico" required>
                         <label for="password">Contraseña:*(obligatorio)</label>
-                        <input type="password" id="password" name="password" placeholder="Introduce una contraseña"
+                        <input type="password" id="password" class="inputs" name="password" placeholder="Introduce una contraseña"
                             required>
                         <label for="confirm-password">Confirmar contraseña:(obligatorio)</label>
-                        <input type="password" id="confirm-password" name="confirm-password"
+                        <input type="password" class="inputs" id="confirm-password" name="confirm-password"
                             placeholder="Confirma tu contraseña" required>
                         <label for="phone">Número de teléfono:(obligatorio)</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Introduce tu número de teléfono" required>
+                        <input type="tel" class="inputs" id="phone" name="phone" placeholder="Introduce tu número de teléfono" required>
                     </div>
                 </div>
                     <!-- Dirección -->
@@ -60,15 +60,15 @@
                     <div class="address">
                         <h2>Dirección</h2>
                         <label for="address">Calle y número:</label>
-                        <input type="text" id="address" name="address" placeholder="Introduce tu dirección">
+                        <input type="text" class="inputs" id="address" name="address" placeholder="Introduce tu dirección">
                         <br>
     
                         <label for="city">Ciudad:</label>
-                        <input type="text" id="city" name="city" placeholder="Introduce tu ciudad">
+                        <input type="text" class="inputs" id="city" name="city" placeholder="Introduce tu ciudad">
                         <br>
     
                         <label for="zip">Código postal:</label>
-                        <input type="text" id="zip" name="zip" placeholder="Introduce tu código postal">
+                        <input type="text" class="inputs" id="zip" name="zip" placeholder="Introduce tu código postal">
                         <br>
     
                         <label for="country">País:</label>
@@ -81,6 +81,13 @@
                         </select>
                         <br>
     
+                    </div>
+                </div>
+                <!-- iamgen de perfil -->
+                <div class="formulary-container">
+                    <div class="image-perfil">
+                        <label for="profile-image">Selecciona una imagen de perfil:</label><br>
+                        <input type="file" class="inputs" id="profile-image" name="profile-image" accept=".jpg, .png">
                     </div>
                 </div>
                     <!-- Preferencias -->
@@ -96,7 +103,7 @@
                         </select>
                     </div>
                     <!-- Botón de envío -->
-                    <button type="submit" class="button-ini">Registrarse</button>
+                    <button type="submit" class="button-ini">Enviar</button>
                 </div>
             </form>
         </div>
