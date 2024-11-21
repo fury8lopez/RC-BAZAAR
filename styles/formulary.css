@@ -69,6 +69,31 @@
     max-width: 80%;
 }
 
+.extern {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+    background-color: var(--contrast-color);
+    color: black;
+    border-radius: 14px;
+}
+
+.extern-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #0074A9;
+    border-radius: 12px;
+    gap: 12px;
+}
+
+.start-icons {
+    width: 120px;
+    border: solid 2px black;
+    border-radius: 8px;
+}
 
 @media (min-width: 768px) {
     .formulary {

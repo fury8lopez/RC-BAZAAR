@@ -450,13 +450,14 @@ header {
 	z-index: 1000;
 }
 
+.back-to-top img {
+	width: 20px;
+}
+
 .back-to-top button {
-	background-color: #0372A8;
-	color: white;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
 	cursor: pointer;
+	padding: 8px;
+	border-radius: 20px;
 }
 
 .back-to-top button:hover {
