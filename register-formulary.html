@@ -1,0 +1,104 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/media/images/rc-bazaar-logo-transp.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" />
+
+    <link rel="stylesheet" href="/styles/index.css" />
+
+    <meta property="og:title" content="RC BAZAAR" />
+    <meta property="og:description" content="BEST PAGE SECOND MARKET" />
+    <meta property="og:url" content="https://luislopezdevelop.netlify.app/" />
+    <meta property="og:image" content="/media/images/rc-bazaar-logo-transp.png" />
+    <meta property="og:site_name" content="tienda segunda mano" />
+    <meta property="og:type" content="website" />
+
+    <!-- Standard Meta Tags -->
+    <title>RC BAZAAR | Your Second-Hand Market for Radio Control</title>
+    <meta name="description" content="#" />
+    <title>RC BAZAAR</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="/index.html">
+                <img src="/media/images/rc-bazaar-logo-transp.png" alt="logo bazaar transparente">
+            </a>
+        </div>
+    </nav>
+    <section class="register">
+        <h1>Registro</h1>
+        <div >
+            <form action="register" method="post" class="formulary">
+            
+                <div class="formulary-container">
+                    <!-- Información básica -->
+                    <div class="basic-info">
+                        <label for="fullname">Nombre completo:(obligatorio)</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Introduce tu nombre completo"
+                            required>
+                        <label for="username">Nombre de usuario:(obligatorio)</label>
+                        <input type="text" id="username" name="username" placeholder="Introduce un nombre de usuario"
+                            required>
+                        <label for="email">Correo electrónico:(obligatorio)</label>
+                        <input type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                        <label for="password">Contraseña:*(obligatorio)</label>
+                        <input type="password" id="password" name="password" placeholder="Introduce una contraseña"
+                            required>
+                        <label for="confirm-password">Confirmar contraseña:(obligatorio)</label>
+                        <input type="password" id="confirm-password" name="confirm-password"
+                            placeholder="Confirma tu contraseña" required>
+                        <label for="phone">Número de teléfono:(obligatorio)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Introduce tu número de teléfono" required>
+                    </div>
+                </div>
+                    <!-- Dirección -->
+                <div class="formulary-container">
+                    <div class="address">
+                        <h2>Dirección</h2>
+                        <label for="address">Calle y número:</label>
+                        <input type="text" id="address" name="address" placeholder="Introduce tu dirección">
+                        <br>
+    
+                        <label for="city">Ciudad:</label>
+                        <input type="text" id="city" name="city" placeholder="Introduce tu ciudad">
+                        <br>
+    
+                        <label for="zip">Código postal:</label>
+                        <input type="text" id="zip" name="zip" placeholder="Introduce tu código postal">
+                        <br>
+    
+                        <label for="country">País:</label>
+                        <select id="country" name="country">
+                            <option value="es" data-flag="🇪🇸">España</option>
+                            <option value="us" data-flag="🇺🇸">Estados Unidos</option>
+                            <option value="fr" data-flag="🇫🇷">Francia</option>
+                            <option value="de" data-flag="🇩🇪">Alemania</option>
+                            <option value="mx" data-flag="🇲🇽">México</option>
+                        </select>
+                        <br>
+    
+                    </div>
+                </div>
+                    <!-- Preferencias -->
+                <div class="formulary-container">
+                    <div class="preferences">
+                        <h2>Preferencias</h2>
+                        <label for="notifications">Notificaciones:</label>
+                        <select id="notifications" name="notifications">
+                            <option value="email">Email</option>
+                            <option value="sms">SMS</option>
+                            <option value="push-up">Push-up</option>
+                            <option value="none">Ninguna</option>
+                        </select>
+                    </div>
+                    <!-- Botón de envío -->
+                    <button type="submit" class="button-ini">Registrarse</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>

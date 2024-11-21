@@ -441,3 +441,24 @@ header {
 	gap: 20px;
 	width: 100%;
 }
+
+/* Estilo para el botón fijo en el margen derecho abajo */
+.back-to-top {
+	position: fixed;
+	bottom: 0px;
+	right: 0px; 
+	z-index: 1000;
+}
+
+.back-to-top button {
+	background-color: #0372A8;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.back-to-top button:hover {
+	background-color: #0056b3;
+}
