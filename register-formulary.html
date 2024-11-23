@@ -37,22 +37,23 @@
                 <div class="formulary-container">
                     <!-- Información básica -->
                     <div class="basic-info">
-                        <label for="fullname">Nombre completo:(obligatorio)</label>
+                        <label for="fullname">Nombre completo:*</label>
                         <input type="text" id="fullname" class="inputs" name="fullname" placeholder="Introduce tu nombre completo"
                             required>
-                        <label for="username">Nombre de usuario:(obligatorio)</label>
+                        <label for="username">Nombre de usuario:*</label>
                         <input type="text" id="username" class="inputs" name="username" placeholder="Introduce un nombre de usuario"
                             required>
-                        <label for="email">Correo electrónico:(obligatorio)</label>
+                        <label for="email">Correo electrónico:*</label>
                         <input type="email" id="email" class="inputs" name="email" placeholder="Introduce tu correo electrónico" required>
-                        <label for="password">Contraseña:*(obligatorio)</label>
+                        <label for="password">Contraseña:*</label>
                         <input type="password" id="password" class="inputs" name="password" placeholder="Introduce una contraseña"
                             required>
-                        <label for="confirm-password">Confirmar contraseña:(obligatorio)</label>
+                        <label for="confirm-password">Confirmar contraseña:*</label>
                         <input type="password" class="inputs" id="confirm-password" name="confirm-password"
                             placeholder="Confirma tu contraseña" required>
-                        <label for="phone">Número de teléfono:(obligatorio)</label>
+                        <label for="phone">Número de teléfono:*</label>
                         <input type="tel" class="inputs" id="phone" name="phone" placeholder="Introduce tu número de teléfono" required>
+                        <p class="red-p">* = Campo obligatorio</p>
                     </div>
                 </div>
                     <!-- Dirección -->
@@ -61,25 +62,21 @@
                         <h2>Dirección</h2>
                         <label for="address">Calle y número:</label>
                         <input type="text" class="inputs" id="address" name="address" placeholder="Introduce tu dirección">
-                        <br>
     
                         <label for="city">Ciudad:</label>
                         <input type="text" class="inputs" id="city" name="city" placeholder="Introduce tu ciudad">
-                        <br>
     
                         <label for="zip">Código postal:</label>
                         <input type="text" class="inputs" id="zip" name="zip" placeholder="Introduce tu código postal">
-                        <br>
     
                         <label for="country">País:</label>
-                        <select id="country" name="country">
+                        <select id="country" name="country" class="notifications">
                             <option value="es" data-flag="🇪🇸">España</option>
                             <option value="us" data-flag="🇺🇸">Estados Unidos</option>
                             <option value="fr" data-flag="🇫🇷">Francia</option>
                             <option value="de" data-flag="🇩🇪">Alemania</option>
                             <option value="mx" data-flag="🇲🇽">México</option>
                         </select>
-                        <br>
     
                     </div>
                 </div>
@@ -95,17 +92,18 @@
                     <div class="preferences">
                         <h2>Preferencias</h2>
                         <label for="notifications">Notificaciones:</label>
-                        <select id="notifications" name="notifications">
+                        <select id="notifications" name="notifications" class="notifications">
                             <option value="email">Email</option>
                             <option value="sms">SMS</option>
                             <option value="push-up">Push-up</option>
                             <option value="none">Ninguna</option>
                         </select>
                     </div>
-                    <!-- Botón de envío -->
-                    <button type="submit" class="button-ini">Enviar</button>
                 </div>
             </form>
+            <a href="/started-session.html">
+                <button class="button-ini">Enviar</button>
+            </a>
         </div>
     </section>
 </body>

@@ -161,15 +161,29 @@ label {
 	justify-content: space-between;
 }
 
+
 .button-ini {
-	display: flex;
+    display: flex;
 	flex-direction: row;
+    justify-content: center;
 	align-items: center;
-	gap: 12px;
-	padding: 10px 20px;
-	border-radius: 8px;
-	min-height: 60px ;
+    min-width: 150px;
+    padding: 10px 20px;
+    background-color: #00c48c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
 }
+
+.button-ini:hover {
+    background-color: #008f68;
+}
+
+
 
 .warning {
 	display: flex;
