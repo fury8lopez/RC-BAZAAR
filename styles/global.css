@@ -169,6 +169,7 @@ label {
 	align-items: center;
 	width: 100%;
     padding: 10px 20px;
+	gap: 12px;
     background-color: #00c48c;
     color: #fff;
     border: none;
@@ -183,6 +184,9 @@ label {
     background-color: #008f68;
 }
 
+.button-ini img {
+	border-radius: 20px;
+}
 
 
 .warning {
@@ -477,7 +481,7 @@ header {
 /* Estilo para el botón fijo en el margen derecho abajo */
 .back-to-top {
 	position: fixed;
-	bottom: 0px;
+	bottom: 40px;
 	right: 0px; 
 	z-index: 1000;
 }
@@ -494,4 +498,47 @@ header {
 
 .back-to-top button:hover {
 	background-color: #0056b3;
+}
+
+.mobile-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.footer-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+	gap: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-item p {
+    margin: 0;
+    font-size: 12px;
 }

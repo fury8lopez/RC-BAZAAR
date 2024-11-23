@@ -68,8 +68,13 @@
 		display: none;
 	}
 
+
 	.show-on-tablet {
 		display: none;
+	}
+
+	.show-on-desktop {
+		display: flex;
 	}
 
 	.desktop-nav {
