@@ -27,7 +27,7 @@
 	<nav>
 		<div class="nav-container">
 			<!-- nav mobile + burger -->
-			<div class="mobile-nav show-on-mobile" role="navigation">
+			<div class="mobile-nav" role="navigation">
 				<div class="menu-hamburguesa">
 					<input type="checkbox" id="menu-toggle" hidden>
 					<label for="menu-toggle">
@@ -50,37 +50,12 @@
 					<input type="search" name="search" id="searching" placeholder="Que estas buscando?"
 						class="searcher">
 				</div>
-				<div class="inicio-sesion">
+				<div class="inicio-sesion show-on-mobile">
 					<a href="/start-session.html">
 						<img src="/media/images/ini-icon.jpg" class="logos" alt="icono login">
 					</a>
 				</div>
-			</div>
-			<!-- nav desktop -->
-			<div class="desktop-nav show-on-desktop" role="navigation">
-				<div class="menu-hamburguesa">
-					<input type="checkbox" id="menu-toggle" hidden>
-					<label for="menu-toggle">
-						<img src="/media/images/menu-hamb-blanco.png" class="logos" alt="menu hamburguesa blanco">
-					</label>
-	
-				<!-- Menú desplegable móvil -->
-					<div class="mobile-menu">
-						<ul>
-							<li><a href="#categories">CATEGORIAS</a></li>
-							<li><a href="#news">NOVEDADES</a></li>
-							<li><a href="/galery.html">GALERIA</a></li>
-							<li><a href="#forum">COMUNIDAD</a></li>
-							<li><a href="/register-formulary.html">REGISTRATE</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="search-container">
-					<input type="search" name="search" id="searching" placeholder="Que estas buscando?"
-						class="searcher">
-
-				</div>
-				<div class="button-container">
+				<div class="button-container show-on-desktop">
 					<button class="button-ini">
 						<a href="/start-session.html">Registrate o Inicia sesion
 						</a>

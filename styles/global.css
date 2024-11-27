@@ -63,10 +63,6 @@ a {
 	display: none;
 }
 
-.show-on-desktop {
-	display: none;
-}
-
 nav {
 	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
 	color: var(--contrast-color);
@@ -91,18 +87,15 @@ label {
 
 .menu-hamburguesa {
 	display: flex;
-	align-items: center;
-	flex-direction: row-reverse;
 }
 
 .mobile-menu {
 	display: none;
 	flex-direction: column;
 	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
-	padding: 15px;
-	max-width: 150px;
+	padding: 15px 12px;
+	min-width: 120px;
 	border-radius: 8px;
-	margin-top: 50px;
 }
 
 .mobile-menu ul {
@@ -122,7 +115,7 @@ label {
 	display: flex;
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 50px;
 	border: solid 2px #6D1B7B;
 }
 
@@ -178,6 +171,11 @@ label {
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-decoration: none;
+}
+
+
+.show-on-desktop {
+	display: none;
 }
 
 .button-ini:hover {
@@ -505,7 +503,7 @@ header {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #0056b3;
     border-top: 1px solid #ccc;
     display: flex;
     justify-content: space-around;
@@ -525,7 +523,7 @@ header {
 
 .footer-item a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 14px;
 	gap: 12px;
 	display: flex;

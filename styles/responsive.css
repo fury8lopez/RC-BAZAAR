@@ -43,11 +43,6 @@
 		--container-width: 85%;
 	}
 
-	.show-on-mobile {
-		display: flex;
-	}
-
-
 	.show-on-desktop {
 		display: none;
 	}
@@ -64,10 +59,9 @@
 		--container-width: 80%;
 	}
 
-	.mobile-nav {
+	.show-on-mobile {
 		display: none;
 	}
-
 
 	.show-on-tablet {
 		display: none;
@@ -100,6 +94,7 @@
 	.feature {
 		max-width: 200px;
 	}
+
 	
 }
 
