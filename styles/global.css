@@ -8,6 +8,7 @@ html,
 body {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	font-style: oblique;
+	background-color: #F0EDE3;
 }
 
 h1,
@@ -265,9 +266,8 @@ header {
 }
 
 .categories {
-	background: linear-gradient(to top, #0074A9, #6D1B7B);
+	
 	min-height: 200px;
-	color: var(--contrast-color);
 	padding: 40px 20px;
 	width: 100%;
 	padding: 20px;
@@ -295,7 +295,7 @@ header {
 	justify-content: space-between;
 	text-align: center;
 	gap: 12px;
-	background-color: var(--secundary-color);
+	background: linear-gradient(to top, #0074A9, #6D1B7B);
 	padding: 20px;
 	border-radius: 12px;
 	max-width: 300px;
@@ -308,9 +308,8 @@ header {
 }
 
 .news {
-	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
+	
 	min-height: 200px ;
-	color: var(--contrast-color);
 	display: flex;
 	flex-direction: column;
 	padding: 40px 20px;
@@ -333,7 +332,7 @@ header {
 	text-align: center;
 	gap: 20px;
 	min-width: 200px;
-	background-color: rgba(142, 142, 142, 0.75);
+	background: linear-gradient(to bottom, #0074A9, #6D1B7B);
 	padding: 20px;
 	border-radius: 8px;
 }
@@ -446,9 +445,7 @@ header {
 }
 
 .near-you {
-	background: linear-gradient(to top, #0074A9, #6D1B7B);
 	padding: 40px 20px;
-	color: var(--contrast-color);
 }
 
 .promo {
